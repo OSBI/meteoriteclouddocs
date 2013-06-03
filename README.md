@@ -10,9 +10,9 @@ Why Use Version Control?
 
 The main advantages of version control are:
 
-• Being able to dig out a version of a file from a previous state, particularly useful for solving discrepancies;
-•	The ability to see who last made a change to something that may be causing a problem;
-•	The capability to regress the whole of a project back to a previous state.
+* Being able to dig out a version of a file from a previous state, particularly useful for solving discrepancies;
+*	The ability to see who last made a change to something that may be causing a problem;
+*	The capability to regress the whole of a project back to a previous state.
 
 Information can usually be recovered if something goes wrong or it is lost. 
 
@@ -35,15 +35,15 @@ The Basics of Git in Relation to Repositories
 
 Before creating or importing a repository, it’s important to understand that there are three states that projects can exist in: committed, modified and staged. 
 
-•	Committed means that the data is saved in your local database; 
-•	Modified means that you have changed the file but it is not yet committed to your database;
-•	Staged means that you have earmarked a modified file in its current version to go into your next commit snapshot.
+*	Committed means that the data is saved in your local database; 
+*	Modified means that you have changed the file but it is not yet committed to your database;
+*	Staged means that you have earmarked a modified file in its current version to go into your next commit snapshot.
 
 There are also three main sections of a Git project:
 
-•	The Git directory is where Git stores the metadata and object database of the project. This is what is copied if you were to clone a repository from another computer.
-•	The working directory is a single checkout of one version of the project. These files can be extracted from the compressed database in the Git directory and transferred to disk for use or modification.
-•	The staging area acts as a workspace that stores information about what will go into your next commit.
+*	The Git directory is where Git stores the metadata and object database of the project. This is what is copied if you were to clone a repository from another computer.
+*	The working directory is a single checkout of one version of the project. These files can be extracted from the compressed database in the Git directory and transferred to disk for use or modification.
+*	The staging area acts as a workspace that stores information about what will go into your next commit.
 
 In summary, files can be modified in the working directory, then you add snapshots of them in your staging area, then you commit, taking the files in the same state they were in in the staging area, storing the snapshot permanently in your Git directory.
 If a particular version of the file is in the Git directory, it’s committed. If it’s modified and added to the staging area, it’s staged, and if it’s been changed since it was checked out but not staged, then it is modified.
