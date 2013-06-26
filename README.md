@@ -5,7 +5,6 @@ date:   2013-06-26 14:49:56
 categories: git meteoritecloud
 ---
 
-
 meteoriteclouddocs
 ==================
 This documentation will give some background information on what Git software is, its purpose, and how to use Git for updating data sets. By the end of this section, the user should have a better idea of Git functionality and how to go about depositing and extracting data in Git repositories.
